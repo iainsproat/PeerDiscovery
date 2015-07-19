@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerDiscovery", "PeerDiscovery.csproj", "{9AF8528B-B36B-49D0-A723-31A2FE8DEAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerDiscovery.Sample", "Sample\PeerDiscovery.Sample.csproj", "{A2528589-3ABA-4841-BF6C-9D1C25A5D55F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AF8528B-B36B-49D0-A723-31A2FE8DEAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF8528B-B36B-49D0-A723-31A2FE8DEAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF8528B-B36B-49D0-A723-31A2FE8DEAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF8528B-B36B-49D0-A723-31A2FE8DEAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2528589-3ABA-4841-BF6C-9D1C25A5D55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2528589-3ABA-4841-BF6C-9D1C25A5D55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2528589-3ABA-4841-BF6C-9D1C25A5D55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2528589-3ABA-4841-BF6C-9D1C25A5D55F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
