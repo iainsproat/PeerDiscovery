@@ -3,15 +3,14 @@
 
 ## Rationale
 
-To allow applications on separate (virtual) machines to discover each other on a local network without the need for a centralised server.  This could allow uses, such as peer-to-peer communication to be initialised, by the consuming application of this library.
+To allow applications on separate machines to discover each other on a local network without the need for a centralised server.  This could allow uses, such as peer-to-peer communication to be initialised, by the consuming application of this library.
 
 ## Description
 
 ### Sender
 1. API allows the trigger of a UDP broadcast to a known port to the local network - 255.255.255.255 or ff02::1 IPv6.  UDP package to adhere to the following:
      - First few bytes are an unique application ID (to avoid conflict with other services which might be using same port)
-     - IP address of sender including port for further TCP communication which this sender is expected to be listening to.
-     - All messages have fixed size.
+     - IP end point of sender for further communication which this sender is expected to be listening to.
 
 Note that the sender is expected to be used sparingly.
 
